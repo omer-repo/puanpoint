@@ -1,0 +1,40 @@
+_id: req_ba611efc5a7e4d3ba59fb9af37f61522
+authentication:
+  type: bearer
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \"Ad\": \"Ömer\",\r
+
+    \"Email\" : \"omer@omer.com\",\r
+
+    \"Telefon\": \"Telefon\",\r
+
+    \"Mesaj\": \"Mesaj\"\r
+
+    }"
+created: 1590954190999
+description: ""
+headers:
+  - id: pair_9c3710cb0dd04c21a8366ad4eae938ad
+    name: Content-Type
+    value: application/json
+  - id: pair_72652f07fb5c4d57b177d9cac89aa494
+    name: Authorization
+    value: "{{Token}}"
+isPrivate: false
+metaSortKey: -1590954190999
+method: GET
+modified: 1590954814983
+name: getHomePage
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: http://api.puanpoint.com/api/GetHomePage?CityId=34

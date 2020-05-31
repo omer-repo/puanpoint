@@ -1,0 +1,37 @@
+_id: req_2518ea0374f540bb9cdb3bfba4e34863
+authentication: {}
+body:
+  mimeType: ""
+  text: "{\r
+
+    \"Ad\": \"Ömer\",\r
+
+    \"Email\" : \"omer@omer.com\",\r
+
+    \"Telefon\": \"Telefon\",\r
+
+    \"Mesaj\": \"Mesaj\"\r
+
+    }"
+created: 1590954191025
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: "{{Token}}"
+isPrivate: false
+metaSortKey: -1590954191025
+method: POST
+modified: 1590954191025
+name: getDeals
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: http://api.puanpoint.com/api/Contact

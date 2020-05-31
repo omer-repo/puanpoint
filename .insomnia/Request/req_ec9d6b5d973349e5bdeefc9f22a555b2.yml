@@ -1,0 +1,27 @@
+_id: req_ec9d6b5d973349e5bdeefc9f22a555b2
+authentication: {}
+body:
+  mimeType: ""
+  text: '{"Id":0,"FullName":null,"Email":null,"Phone":null,"Password":null,"CityId":34,"DeviceTypeId":2,"DeviceId":"2C5A17D8-AE79-4005-8DA4-5CB67F7A3CB1"}'
+created: 1590954191035
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: ""
+    value: ""
+isPrivate: false
+metaSortKey: -1590954191035
+method: POST
+modified: 1590954191035
+name: Register
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: http://api.puanpoint.com/api/Register

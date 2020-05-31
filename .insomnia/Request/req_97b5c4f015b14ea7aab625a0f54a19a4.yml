@@ -1,0 +1,25 @@
+_id: req_97b5c4f015b14ea7aab625a0f54a19a4
+authentication: {}
+body: {}
+created: 1590954191021
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: "{{Token}}"
+isPrivate: false
+metaSortKey: -1590954191021
+method: POST
+modified: 1590954191021
+name: ScanQRCode
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: http://api.puanpoint.com/api/ScanPointCode?QRCode=1302d636-3705-41b6-b65d-eef300a98327

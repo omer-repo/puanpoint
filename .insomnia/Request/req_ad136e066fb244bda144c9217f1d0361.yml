@@ -1,0 +1,27 @@
+_id: req_ad136e066fb244bda144c9217f1d0361
+authentication: {}
+body:
+  mimeType: ""
+  text: grant_type=password&username=ofaruk.k@gmail.com&password=1234567
+created: 1590954191031
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: fcmtoken
+    value: fcmtokentest
+isPrivate: false
+metaSortKey: -1590954191031
+method: GET
+modified: 1590954191031
+name: getToken
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://api.puanpoint.com/token

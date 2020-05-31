@@ -1,0 +1,25 @@
+_id: req_c4833334ba66454d810e91e455eafe3a
+authentication: {}
+body: {}
+created: 1590954191002
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: "{{Token}}"
+isPrivate: false
+metaSortKey: -1590954191002
+method: GET
+modified: 1590954191002
+name: getCoupons
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: http://api.puanpoint.com/api/getMyCoupons

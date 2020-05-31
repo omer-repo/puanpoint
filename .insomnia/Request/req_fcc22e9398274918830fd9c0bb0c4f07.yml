@@ -1,0 +1,25 @@
+_id: req_fcc22e9398274918830fd9c0bb0c4f07
+authentication: {}
+body: {}
+created: 1590954191011
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: "{{Token}}"
+isPrivate: false
+metaSortKey: -1590954191011
+method: GET
+modified: 1590954191011
+name: getCampaignsByBusiness
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: http://api.puanpoint.com/api/GetHomePage?CityId=34

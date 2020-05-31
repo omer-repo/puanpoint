@@ -1,0 +1,30 @@
+_id: req_4a5db2a800e5438489a8974b6d90cafb
+authentication: {}
+body:
+  mimeType: ""
+  text: grant_type=password&username=ofaruk.k@gmail.com&password=1234567
+created: 1590954190989
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: fcmtoken
+    value: fcmtokentest
+  - name: deviceInfo
+    value: '{"OS":"Android","OSVersion":"9","Deviceid":"123123123","DeviceModel":"RedmiNote
+      8","DeviceBrand":"Xiaomi","ApplicationVersion":"1.1","ApplicationFirstinstallTime":"01.01.2020","ApplicationLastUpdateTime":"03.01.2020","Carrier":"vodafone","Referrer":null}'
+isPrivate: false
+metaSortKey: -1590954190989
+method: GET
+modified: 1590954190988
+name: getTokenBusinessUser
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://api.puanpoint.com/token

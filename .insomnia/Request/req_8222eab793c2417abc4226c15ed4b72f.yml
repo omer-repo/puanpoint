@@ -1,0 +1,51 @@
+_id: req_8222eab793c2417abc4226c15ed4b72f
+authentication: {}
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"condition\": \"!('anytopicyoudontwanttouse' in topics)\"\r
+
+    \r
+
+    \ \"notification\" : {\r
+
+    \     \"body\" : \"PuanPoint ailesi olarak mutlu bayramlar dileriz
+    :)\",\r
+
+    \     \"title\": \"Mutlu Bayramlar\",\r
+
+    \     \"sound\" : \"default\",\r
+
+    \     \"image\":
+    \"https://panel.puanpoint.com/pFiles/notification/iyi-bayramlar.jpg\",\r
+
+    \   \r
+
+    \ }\r
+
+    \ \r
+
+    }"
+created: 1590954190985
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: key=AAAA8dkJBjM:APA91bEJ8fn6OCOvQhMunIo7yzYUbmUmRrjNHgZLCaxiIyZgzIhyEL6NHiw8Op9ovASD87b0hfHJR9hLrHf1VFMeC96xk71pNwecwOwKWHzWiNkekcMLmVxNx4_gEKdXzldd-fxzkM21
+isPrivate: false
+metaSortKey: -1590954190985
+method: POST
+modified: 1590954190985
+name: FCMTestAll
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://fcm.googleapis.com/fcm/send

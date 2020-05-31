@@ -1,0 +1,45 @@
+_id: req_eba9926928b94c8090e9ea94ee8bcfe5
+authentication: {}
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"Id\": 5,\r
+
+    \  \"FullName\": \"Mert Bey\",\r
+
+    \  \"Email\": \"mert.yeni@hypersoft.com.tr\",\r
+
+    \  \"Phone\": \"5051231212\",\r
+
+    \  \"CityId\": 6,\r
+
+    \   \"DeviceTypeId\": 2,\r
+
+    \   \"DeviceId\": \"iOS Device Id...\"\r
+
+    }"
+created: 1590954191028
+description: ""
+headers:
+  - id: pair_66286cd744bc43a08c3f258508c8f8e5
+    name: Content-Type
+    value: application/json
+  - id: pair_6566352be1e4494982194580b9e964d2
+    name: Authorization
+    value: "{{Token}}"
+isPrivate: false
+metaSortKey: -1590954191028
+method: POST
+modified: 1590954770365
+name: UpdateUser
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: http://localhost:3029/api/UpdateUser

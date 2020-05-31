@@ -1,0 +1,53 @@
+_id: req_32579bb4a8244cd1848b9766fc595e29
+authentication: {}
+body:
+  mimeType: ""
+  text: "{\r
+
+    \ \"to\" :
+    \"ceLch8SgCLs:APA91bFqqyBuJ1W1uGktmTNgfLlqI7BeYaswi_mPVPrer4w1ACduEF-Q-R1Ok\
+    LWdmlNZHK2CASy7-38vGOnJ8PLGyXnFWA_VSFbapz5fuxcC79Q5dblmOfLWRdgainponMRFXuFi\
+    hxpd\",\r
+
+    \r
+
+    \ \"notification\" : {\r
+
+    \     \"body\" : \"PuanPoint\",\r
+
+    \     \"title\": \"Merhaba Ömer - 2\",\r
+
+    \     \"sound\" : \"default\",\r
+
+    \     \"image\":
+    \"https://panel.puanpoint.com/pFiles/notification/iyi-bayramlar.jpg\",\r
+
+    \   \r
+
+    \ }\r
+
+    \ \r
+
+    }"
+created: 1590954190995
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: key=AAAA8dkJBjM:APA91bEJ8fn6OCOvQhMunIo7yzYUbmUmRrjNHgZLCaxiIyZgzIhyEL6NHiw8Op9ovASD87b0hfHJR9hLrHf1VFMeC96xk71pNwecwOwKWHzWiNkekcMLmVxNx4_gEKdXzldd-fxzkM21
+isPrivate: false
+metaSortKey: -1590954190995
+method: POST
+modified: 1590954190995
+name: FCMTest
+parameters: []
+parentId: fld_34c736bfc8c94913ba575782a161d0a9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://fcm.googleapis.com/fcm/send
